@@ -25,7 +25,8 @@ accelerator:
       defaultValue: main
 
     - name: interval
-      label: Git repo update interval
+      label: Interval
+      description: Git repo polling interval at which the server checks for updates.
       dataType: string
       defaultValue: ""
 
